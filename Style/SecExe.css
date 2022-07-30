@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.conT {
+
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+
+    gap: 10px;
+
+}
+
+.r1,.r2,.r3,.r4,.r5,
+.item1,
+.itemZ {
+    font-size: 25px;
+    color: white;
+    border: solid 1px rgb(70, 178, 253);
+    background-color: rgb(70, 178, 253);
+    padding: 12px;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+    
+   
+
+
+}
+
+.item1 {
+    grid-column-end: span 60;
+}
+
+.r1 {
+    grid-column-end: span 30;
+}
+
+.r2 {
+    grid-column-end: span 20;
+}
+
+.r3 {
+    grid-column-end: span 15;
+}
+
+.r4 {
+    grid-column-end: span 12;
+}
+
+.r5 {
+    grid-column-end: span 10;
+}
+
+.itemZ {
+    grid-column-end: span 60;
+}

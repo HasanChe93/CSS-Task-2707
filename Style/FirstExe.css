@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ 
+    height: 1000px;
+    background-color: silver;
+}
+
+/* img{
+    width: 250px;
+    height: 250px;
+} */
+.s1{
+    position: relative;
+    display: grid;
+
+}
+
+.p1{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 5px;
+    
+}
+.conT{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    row-gap: 60px;
+    
+}
+.s1 img{
+    height: 613px;
+    width: 700px;
+
+}
+.s3 img{
+    width: 409px;
+    height:308px;
+    margin-top: -5px;
+}
+
+.ftext{
+    position: absolute;
+top:10%;
+padding-left: 30px;
+}
+.setext,.thitext{
+    
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-top:20px ;
+    width: 409px;
+    height:308px
+    
+}
+.s2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.setext{
+    background-color: rgb(30,179,103);
+
+    color: white;
+    margin-top: -5px;
+}
+.thitext{
+    background-color: rgb(68,187,230);
+    margin-top: 0px;
+    color: white;
+}
+.p2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+   
+}
+ul{
+    text-align: left;
+    padding-left:10px;
+    color: white;
+}
+a{
+    color: white;
+}
+
+#t1{
+    color: orange;
+    font-size: larger;
+}
+#t2{
+    color: orange;
+    font-size: 50px;
+}
+.ftext #t3{
+   color: gray;
+}
+.ftext #t4{
+    width: 200px;
+    color: gray;
+   
+}
+.c2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap:1fr  
+  
+}
+.pa,.pb,.pc,.pd,.pe{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: white;
+    border: 15px solid silver;
+
+}
+
+
+.fa-solid fa-mobile-screen-button{
+ border: 1px yellow solid;
+ background-color: orange;
+   
+
+
+
+}
+
+.pa{
+    background-color: orange;
+   
+    
+}
+
+.fa-solid{
+    background-color: silver;
+    
+  
+    border: 1px silver solid;
+    margin: 5px;
+    padding-left:35% ;
+    padding-top: 100%;
+    
+    
+
+}
+#p2{
+    text-align: center;
+    font-size: larger;
+    
+   
+}.
